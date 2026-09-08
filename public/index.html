@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="theme-color" content="#153e38">
+  <meta name="description" content="فيجن ورلد — شريك شركات السياحة في اختيار فنادق السعودية. نسخة تجريبية خاصة.">
+  <title>Vision World | شراكات تصنع رحلة أفضل</title>
+  <link rel="icon" href="/assets/mark.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/font-0.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#hotels">الانتقال إلى الفنادق / Skip to hotels</a>
+  <div class="preview-bar"><span class="status-dot"></span><span data-i18n="privatePreview">نسخة خاصة للتجربة</span><span class="bar-divider">·</span><span data-i18n="demoShort">فنادق وأسعار توضيحية — لا توجد حجوزات فعلية</span></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#home" class="brand" aria-label="Vision World home"><img src="/assets/mark.svg" alt="" width="44" height="44"><span><strong>VISION WORLD</strong><small data-i18n="brandTag">شراكات تصنع رحلة أفضل</small></span></a>
+      <nav class="desktop-nav" aria-label="Main navigation"><a href="#hotels" class="nav-link active" data-i18n="navHotels">اكتشف الفنادق</a><a href="#partnership" class="nav-link" data-i18n="navPartner">لماذا فيجن ورلد؟</a><button class="nav-link" data-action="saved"><span data-i18n="saved">المفضلة</span><span class="saved-count">0</span></button></nav>
+      <div class="header-actions"><button class="language-btn" id="languageToggle" aria-label="Switch to English"><span id="langIcon"></span><span id="languageLabel">EN</span></button><button class="workspace-btn" data-action="workspace"><span id="workIcon"></span><span data-i18n="workspace">مساحة العمل</span></button><button class="mobile-menu-btn icon-btn" id="mobileMenu" aria-label="القائمة"><span id="menuIcon"></span></button></div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" hidden><a href="#hotels" data-i18n="navHotels">اكتشف الفنادق</a><a href="#partnership" data-i18n="navPartner">لماذا فيجن ورلد؟</a><button data-action="saved" data-i18n="saved">المفضلة</button></nav>
+  </header>
+  <main id="cataloguePage">
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="إطلالة على مكة المكرمة وبرج الساعة"></div><div class="hero-overlay"></div>
+      <div class="hero-inner"><div class="hero-copy"><div class="eyebrow light"><span class="gold-line"></span><span data-i18n="heroEyebrow">من قلب مكة، لشركاء الرحلة</span></div><h1 data-i18n="heroTitle">ضيافة تليق بضيوفك.<br><em>وشراكة ترتقي بأعمالك.</em></h1><p data-i18n="heroText">خيارات فندقية مختارة في السعودية، وعروض مصممة لشركات السياحة والعمرة. كل ما تحتاجه لرحلة تبدأ بثقة.</p><a href="#hotels" class="btn btn-gold"><span data-i18n="explore">اكتشف فنادق مكة</span><span class="arrow-dir">←</span></a><div class="hero-proof"><span class="proof-icon" id="shieldIcon"></span><span data-i18n="heroProof">لشركات السياحة والعمرة • تجربة أعمال B2B</span></div></div><div class="location-stamp"><span id="pinHero"></span><span><b data-i18n="makkah">مكة المكرمة</b><small>MAKKAH, SAUDI ARABIA</small></span></div></div>
+      <div class="hero-bottom"><span>VISION WORLD COLLECTION</span><span data-i18n="heroBottom">إقامة مدروسة. تجربة متكاملة.</span></div>
+    </section>
+    <div class="search-wrap"><form class="search-panel" id="searchForm"><div class="search-field search-name"><span id="searchIcon"></span><label for="search"><span data-i18n="searchLabel">ابحث عن إقامتك القادمة</span><input id="search" type="search" autocomplete="off" data-i18n-placeholder="searchPlaceholder" placeholder="اسم الفندق أو المنطقة..."></label></div><div class="search-field"><span id="pinSearch"></span><label for="area"><span data-i18n="areaLabel">المنطقة</span><select id="area"><option value="" data-i18n="allAreas">كل مناطق مكة</option><option value="central" data-i18n="central">المنطقة المركزية</option><option value="ibrahim" data-i18n="ibrahim">إبراهيم الخليل</option><option value="mahbas" data-i18n="mahbas">محبس الجن</option><option value="aziziyah" data-i18n="aziziyah">العزيزية</option></select></label></div><div class="search-field"><span id="starSearch"></span><label for="stars"><span data-i18n="category">فئة الفندق</span><select id="stars"><option value="" data-i18n="allCategories">جميع الفئات</option><option value="5" data-i18n="fiveStars">٥ نجوم</option><option value="4" data-i18n="fourStars">٤ نجوم</option><option value="3" data-i18n="threeStars">٣ نجوم</option></select></label></div><button type="submit" class="btn btn-primary"><span id="searchBtnIcon"></span><span data-i18n="searchButton">ابحث عن فندق</span></button></form></div>
+    <section class="catalogue section-container" id="hotels">
+      <div class="section-heading"><div><div class="eyebrow"><span class="gold-line"></span><span data-i18n="collection">مجموعة فنادقنا</span></div><h2 data-i18n="catalogueTitle">إقامة تناسب كل رحلة</h2><p data-i18n="catalogueText">من جوار الحرم إلى خيارات المجموعات، اختر ما يناسب ضيوفك.</p></div><div class="city-label"><span id="cityIcon"></span><span data-i18n="makkah">مكة المكرمة</span><span class="city-dot"></span></div></div>
+      <div class="filter-row"><div class="filter-chips" role="group" aria-label="Hotel filters"><button class="chip selected" data-filter="all" data-i18n="allHotels">كل الفنادق</button><button class="chip" data-filter="near"><span class="chip-icon" data-icon="pin"></span><span data-i18n="nearHaram">قريب من الحرم</span></button><button class="chip" data-filter="groups"><span class="chip-icon" data-icon="users"></span><span data-i18n="groupFriendly">مناسب للمجموعات</span></button><button class="chip" data-filter="breakfast"><span class="chip-icon" data-icon="coffee"></span><span data-i18n="breakfastIncluded">يشمل الإفطار</span></button><button class="chip" data-filter="favorites"><span class="chip-icon" data-icon="heart"></span><span data-i18n="saved">المفضلة</span></button></div><button class="filter-toggle" id="budgetToggle" aria-expanded="false"><span id="slidersIcon"></span><span data-i18n="priceFilter">تصفية السعر</span></button></div>
+      <div class="budget-panel" id="budgetPanel" hidden><label for="maxPrice" data-i18n="budgetLabel">أقصى سعر للغرفة / الليلة</label><input id="maxPrice" type="range" min="150" max="1000" step="50" value="1000"><output id="budgetOutput">1,000 ر.س</output></div>
+      <div class="results-row"><span id="resultCount" aria-live="polite"></span><div class="sort-wrap"><label for="sort" data-i18n="sortBy">الترتيب:</label><select id="sort"><option value="recommended" data-i18n="recommended">اختيارات فيجن ورلد</option><option value="priceLow" data-i18n="priceLow">السعر: من الأقل للأعلى</option><option value="priceHigh" data-i18n="priceHigh">السعر: من الأعلى للأقل</option><option value="distance" data-i18n="distanceSort">الأقرب إلى الحرم</option></select></div></div>
+      <div class="hotel-grid" id="hotelGrid"></div>
+      <div class="sample-note"><span id="infoIcon"></span><span data-i18n="sampleNote">نماذج توضيحية: الأسماء والتصنيفات والمسافات والأسعار افتراضية، والصور للإلهام فقط. التوافر والأسعار النهائية يحتاجان تأكيدًا.</span></div>
+    </section>
+    <section class="partnership section-container" id="partnership"><div class="partnership-inner"><div class="partner-intro"><div class="eyebrow light"><span class="gold-line"></span><span data-i18n="partnerEyebrow">أكثر من اختيار فندق</span></div><h2 data-i18n="partnerTitle">شريكك في كل خطوة<br>من رحلة ضيوفك.</h2><button class="btn btn-gold" data-action="general-inquiry"><span data-i18n="planGroup">جهّز طلب مجموعتك</span><span class="arrow-dir">←</span></button></div><div class="partner-benefits"><div><span class="benefit-icon" data-icon="building"></span><h3 data-i18n="benefit1Title">خيارات لكل مجموعة</h3><p data-i18n="benefit1Text">قارن الموقع والفئة والخدمات للوصول للإقامة الأنسب.</p></div><div><span class="benefit-icon" data-icon="file"></span><h3 data-i18n="benefit2Title">تفاصيل واضحة من البداية</h3><p data-i18n="benefit2Text">حدّد الغرف والتواريخ والوجبات في طلب واحد منظم.</p></div><div><span class="benefit-icon" data-icon="handshake"></span><h3 data-i18n="benefit3Title">مصمم لشركات السياحة</h3><p data-i18n="benefit3Text">تجربة أعمال تراعي احتياجات برامج العمرة والمجموعات.</p></div></div></div></section>
+  </main>
+  <main id="workspacePage" class="workspace-page section-container" hidden></main>
+  <footer class="site-footer section-container"><div><a href="#home" class="footer-brand">VISION WORLD<span>فيجن ورلد</span></a><p data-i18n="footerTag">رؤية أوسع لضيافة أفضل.</p></div><div class="footer-end"><p>© 2026 Vision World. <span data-i18n="rights">جميع الحقوق محفوظة.</span></p><button class="text-btn" data-action="about-demo" data-i18n="aboutDemo">عن النسخة التجريبية ومصادر الصور</button></div></footer>
+  <dialog id="detailDialog" class="detail-dialog"><div id="detailContent"></div></dialog>
+  <dialog id="inquiryDialog" class="inquiry-dialog"><div id="inquiryContent"></div></dialog>
+  <dialog id="infoDialog" class="info-dialog"><div id="infoContent"></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>
