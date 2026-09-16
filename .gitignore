@@ -3,3 +3,11 @@ node_modules/
 *.log
 test-results/
 dist/
+.idea/
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+._*
+.env
+!.env.example

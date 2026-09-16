@@ -25,3 +25,24 @@ There is no network submission, email, analytics, hotel booking, payment flow or
 Makkah hero: https://www.expedia.com/Things-To-Do-In-Makkah.d178043.Travel-Guide-Activities
 
 Illustrative interiors: Unsplash images `photo-1611892440504-42a792e24d32`, `photo-1590490360182-c33d57733427`, `photo-1566665797739-1674de7a421a`, `photo-1618773928121-c32242e63f39`, `photo-1631049307264-da0ec9d70304`, `photo-1582719478250-c89cae4dc85b`. These photographs do not depict the fictional sample hotels. IBM Plex Sans Arabic is served locally from the Google Fonts distribution.
+
+## Additional local setup notes
+
+Install Node.js with npm, then from the repository directory:
+
+```bash
+npm run dev -- --port 4173
+```
+
+Open http://localhost:4173. The application has no npm application dependencies. `npm run build` copies `public/` into `dist/`; it does not deploy the site. The development server listens on all interfaces, so use it only in a trusted local environment.
+
+For the optional QA script, install its currently undeclared test dependency locally:
+
+```bash
+npm install --no-save --package-lock=false playwright
+npx playwright install chromium
+node qa.cjs
+```
+
+The script uses synthetic contacts and isolates local asset requests by default. These commands were derived from the checked-in scripts; they were not executed during this review.
+
